@@ -1,4 +1,4 @@
-# mac 上 python 的安装
+# mac 上 python 版本的更新
 mac 自带的 python 版本一般都是最低的版本 2.7，可以在命令行输入 python 查看版本。如果想要升级，可以从官网下载最新的版本，按照步骤一步一步安装。最终安装完成的目录为
 ```bash
 /Library/Frameworks/Python.framework/Versions/
