@@ -1,6 +1,5 @@
 ## Python Learning
 
----
 
 ### 目的
 - 学会Python，掌握一门新语言
