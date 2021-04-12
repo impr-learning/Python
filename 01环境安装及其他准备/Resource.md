@@ -9,5 +9,5 @@
     - Part.1.E.2.values-and-their-operators.ipynb
 
 - 录屏  
-    - 链接: https://pan.baidu.com/s/1dQG30SmBKFbIvPUp7ScxDw  
-    - 密码: impr
+    - 链接: https://pan.baidu.com/s/1b5h3iheKx5ZS-PU1P9AfUA 
+    - 密码: 1qdl
