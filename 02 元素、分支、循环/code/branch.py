@@ -22,13 +22,14 @@ if(x > 1){
 # switch/case 使用字典 实现
 def num_to_string(num):
     numbers = {
-        0 : "zero",
-        1 : "one",
-        2 : "two",
-        3 : "three"
+        0: "zero",
+        1: "one",
+        2: "two",
+        3: "three"
     }
 
     return numbers.get(num, None)
+
 
 if __name__ == "__main__":
     print(num_to_string(2))

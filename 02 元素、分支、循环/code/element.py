@@ -1,4 +1,5 @@
 # 整数
+i = 1
 print(0b100)
 print('0o100')
 # 浮点数
@@ -14,9 +15,9 @@ print("word")
 print('I\'m a big fans of Python.')
 print("I'm a big fans of Python.")
 # 布尔型
+# print(true)  小写错的
 print(True)
 print(3 == 5)
-
 
 # 这里是单行注释
 """
@@ -25,9 +26,12 @@ print(3 == 5)
 """
 
 
-
-
-
+# a = 1
+# b = 1
+# if a == 2 or b == 1:
+#     print(11111111)
+# else:
+#     print(222222)
 a = 100
 b = 12.345
 c = 1 + 5j
