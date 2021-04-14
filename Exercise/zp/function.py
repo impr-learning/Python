@@ -24,7 +24,7 @@ def necessary_param(string):
 print(necessary_param('abc'))
 
 
-# 默认参数说明
+# 默认参数说明  必选参数在前，默认参数在后，否则Python的解释器会报错（思考一下为什么默认参数不能放在必选参数前面）https://blog.csdn.net/troubleshooter/article/details/41649805
 def default_param(name, age=25):
     return '名字：' + str(name) + ' 年龄：' + str(age)
 
@@ -48,10 +48,10 @@ print(variable_param())
 shuzu = (1, 2, 3, 4, 5, 6, 7)  # tuple 元组
 print(variable_param(*shuzu))
 # *shuzu表示把shuzu这个list的所有元素作为可变参数传进去
-# print(variable_param('Bob', 35, city='Beijing'))
+# print(variable_param('Bob', 35, city='Beijing')) 因为是元组所以传入的参数不能是键值对
 
 
-# 关键字参数说明
+# 关键字参数说明  （必选参数 + 关键字参数）
 def keyword_param(name, age, **args):
     print('name:', name, ' age:', str(age), ' other:', args)
     return
@@ -65,7 +65,7 @@ keyword_param('Bob', 35, **extra)
 # **extra表示把extra这个dict的所有key-value用关键字参数传入到函数的**args参数
 
 
-# 参数组合 默认参数 + 必备参数 + 可变参数 +关键字参数
+# 参数组合 必备参数 + 默认参数 + 可变参数 + 关键字参数
 def compose(a, b, c=0, *number, **args):
     print('a =', a, 'b =', b, 'c =', c, 'number =', number, 'args =', args)
     return
@@ -105,6 +105,8 @@ print(Random().randint(1, 6))
 print('-----')
 import module3
 print(module3)
+
+
 
 
 
