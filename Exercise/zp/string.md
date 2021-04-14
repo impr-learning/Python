@@ -77,3 +77,5 @@ a.reverse()     翻转列表
 清空字典：dict.clear()
 删除字典：del dict
 ```
+类型区别：
+https://blog.csdn.net/weixin_43752392/article/details/103264817
