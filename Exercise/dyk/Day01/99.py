@@ -4,6 +4,7 @@ def one():
             print('{}x{}={}\t'.format(j, i, i * j), end='')
         print()
 
+
 def two():
     i = 1
     while i <= 9:
@@ -13,6 +14,7 @@ def two():
             j += 1
         i += 1
         print()
+
 
 def three():
     a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -24,13 +26,14 @@ def three():
             j += 1
         print()
 
+
 def four():
     print('\n'.join([' '.join([f"{j}x{i}={i * j}" for j in range(1, i + 1)]) for i in range(1, 10)]))
 
 
 def main():
-    four()
-    # print([i ** 3 for i in range(1, 10)])
+    # four
+    print([i ** 2 for i in range(1, 10)])
 
 
 if __name__ == '__main__':
