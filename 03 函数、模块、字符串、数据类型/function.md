@@ -51,3 +51,4 @@ Python 模块(Module)，是一个 Python 文件，以 .py 结尾，包含了 Pyt
 ## 变量的作用域
 
 变量可以分为全局变量（global variable）和局部变量（local variable）。Python查找一个变量时会按照“局部作用域”、“嵌套作用域”、“全局作用域”和“内置作用域”的顺序进行搜索。
+

@@ -80,22 +80,3 @@ for i in range(2, 10001):
 #     while num < i:
 #         if i % num == 0 and num != 1:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
