@@ -1,0 +1,4 @@
+mode: w+mode: amode: amode: a+mode: a+mode: a+/n mode: a+
+    mode: a+
+    mode: a+
+mode: a+mode: a+mode: a+
