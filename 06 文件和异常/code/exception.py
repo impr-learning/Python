@@ -4,7 +4,7 @@ import sys
 def exception1():
     f = None
     try:
-        f = open('writing1.txt', 'r', encoding='utf-8')
+        f = open('writing2.txt', 'r', encoding='utf-8')
         print(f.read())
     except FileNotFoundError:
         print('无法打开指定的文件!')
@@ -18,18 +18,18 @@ def exception1():
 
 
 def exception2():
-    a = 0
+    a = 2
     b = 5
     c = 1
     try:
         c = b / a
         print(a, b, c)
-    except ZeroDivisionError:
-        print('分母不能为0!')
-    # except:
-    #     print("Unexpected error:", sys.exc_info()[0])
-    #     # 抛出异常
-    #     # raise
+    # except ZeroDivisionError:
+    #     print('分母不能为0!')
+    except:
+        print("Unexpected error:", sys.exc_info()[0])
+        # 抛出异常
+        # raise
     # else:
     #     print('no exception')
     #     print(a, b, c)
